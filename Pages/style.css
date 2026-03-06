@@ -1,0 +1,118 @@
+/* General tags first (for default browser styling)*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    width: 45%;
+    font-family: "Lora";
+    font-family: "Lora";
+    font-size: 50px;
+    margin: auto;
+}
+
+
+/* .bgImg {
+    display: block;
+    width: 100%;
+    background-image: url(../Images/bg.jpg);
+} */
+
+/* General classes  */
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.title,
+.title-sec {
+    font-size: 30px;
+}
+
+#whiteSpace {
+    height: 100px;
+}
+
+p {
+    line-height: 1.7;
+}
+
+#ourMission {
+    background-color: #ebebeb;
+}
+
+#backgroundimg{
+    height: 700px;
+    background-image: url(../Images/bg.jpg); 
+    background-position: center center;          
+    background-repeat: no-repeat;               
+    background-size: cover; 
+    align-content: center;
+    color: white;
+    text-align: center;
+    border: 2px;
+    
+    }
+
+/* Sections */
+
+/* Our story */
+#section1 {
+    background-color: white;
+}
+
+#contentWrapper {
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10%;
+}
+
+.imageWrapper.sec1 {
+    width: 45%;
+}
+
+/* Our mission - Our vission */
+#ourMission{
+    padding-top: 3%;
+}
+
+.title-sec {
+    text-align: center;
+}
+
+.head-sec {
+    font-size: 25px;
+    margin-top: 5%;
+}
+
+.imageWrap-sec {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+/* What We Do? */
+#WhatWeDo {
+    align-content: center;
+}
+
+
+.imageWrapper.sec2 {
+    width: 25%;
+    vertical-align: middle;
+    margin-left: 10%;
+}
