@@ -1,4 +1,40 @@
 /* General tags first (for default browser styling)*/
+ nav{
+      display: flex;
+      justify-content: space-between; /* Align items to the right */
+      padding: 15px 30px;
+    
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-left: 25px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white; /* White text */
+      font-size: 16px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #ff4c4c; /* Red hover */
+    }
+
+    nav div .logo{
+        width: 15%;
+        padding-top: 0;
+        margin: 0;
+    }
+
 body {
     margin: 0;
     padding: 0;
@@ -14,13 +50,23 @@ ul {
     list-style: none;
     padding: 0;
 }
-h1{
+#headContent{
     text-align: center;
-    width: 45%;
     font-family: "Lora";
     font-family: "Lora";
-    font-size: 50px;
-    margin: auto;
+    font-size: 20px;
+    margin:auto;
+    margin-top: 18%;
+    color: white;
+    border: 2px;
+}
+
+#headDesc{
+  align-content: center;
+    color: white;
+    text-align: center;
+    border: 2px;
+    font-size: small;
 }
 
 
@@ -44,6 +90,7 @@ img {
 
 #whiteSpace {
     height: 100px;
+    clear: both;
 }
 
 p {
@@ -55,18 +102,16 @@ p {
 }
 
 #backgroundimg{
-    height: 700px;
+    width: 100%;
+    height: 800px;
     background-image: url(../Images/bg.jpg); 
     background-position: center center;          
     background-repeat: no-repeat;               
     background-size: cover; 
-    align-content: center;
-    color: white;
-    text-align: center;
-    border: 2px;
-    
+    vertical-align: middle;
     }
 
+    
 /* Sections */
 
 /* Our story */
@@ -88,6 +133,7 @@ p {
 /* Our mission - Our vission */
 #ourMission{
     padding-top: 3%;
+    padding-bottom: 1%;
 }
 
 .title-sec {
@@ -108,6 +154,7 @@ p {
 /* What We Do? */
 #WhatWeDo {
     align-content: center;
+    margin-top: 3%;
 }
 
 
